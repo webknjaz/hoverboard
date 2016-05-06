@@ -76,7 +76,7 @@
     "company": "Timee",
     "country": "Ukraine",
     "photoUrl": "/images/people/dmytro_danylyk.jpg",
-    "bio": "Dmytro is a developer, writer, speaker. He live in Lviv - a quaint and beautiful city. He is passionate about android and flat design. Currently Dmytro works for a startup Timee where he develop Android application and he love what he do.",
+    "bio": "Dmytro is a developer, writer, speaker. He live in Lviv - a quaint and beautiful city. He is passionate about android and flat design. Currently Dmytro works for a startup Timee where he develops Android application and he love what he do.",
     "tags": [
       "Android",
       "UX"
@@ -111,10 +111,10 @@
     "featured": true,
     "name": "Valentyn Shybanov",
     "title": "Software Engineer/Country Manager",
-    "company": "Twinfield",
+    "company": "Wolters Kluwer",
     "country": "Ukraine",
     "photoUrl": "/images/people/valentyn_shybanov.jpg",
-    "bio": "Valentyn focuses on Polymer and Web Components. In previous roles heâ€™s helped craft design systems for massive enterprise companies, user interfaces for console titles, and even built the occasional enchanted princess game. These days his mission is to fight for a better web and to help developers build great experiences.",
+    "bio": "Valentyn focuses on Polymer and Web Components. In previous roles has helped craft design systems for massive enterprise companies, user interfaces for console titles, and even built the occasional enchanted princess game. These days his mission is to fight for a better web and to help developers build great experiences.",
     "tags": [
       "Web",
       "AngularJS",
@@ -154,7 +154,7 @@
     "company": "Mirantis Inc.",
     "country": "Ukraine",
     "photoUrl": "/images/people/ihor_dvoretskyi.jpg",
-    "bio": "Ihor is an Operations Engineer at Mirantis Inc - the #1 Pure Play OpenStack Company, with a huge experience working in IT companies, where he was responsible for a couple of projects, tightly bound to Cloud computing and *nix systems. Ihor is deeply interested in OpenStack cloud platform, other Cloud technologies and Open Source projects. Also, Ihor is a big fan of Google and Google products.<br/><br/>Apart from work, Ihor is also interested in other branches of IT technology and starts diving into Robotics.",
+    "bio": "Ihor is an Operations Engineer at Mirantis with a huge experience working in IT companies, where he was responsible for projects tightly bound to Cloud computing and Linux systems. He is deeply interested in the OpenStack cloud platform, other Cloud technologies, especially the Open Source projects.<br><br>Also, Ihor acts as the OpenStack Foundation member, Kubernetes upstream contributor, and OpenStack special interest group lead in Kubernetes Community, working intensely on the questions and abilities, related to the OpenStack and Kubernetes collaboration and integration.",
     "tags": [
       "Cloud",
       "Kubernetes",
@@ -164,7 +164,7 @@
       {
         "name": "Google+",
         "icon": "gplus",
-        "link": "https://plus.google.com/+IgorDvoretskyi/"
+        "link": "https://plus.google.com/103000293055760527954"
       },
       {
         "name": "LinkedIn",

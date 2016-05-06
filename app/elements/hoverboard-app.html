@@ -187,9 +187,6 @@
           this.is = this.constructor.name.replace(/\W+/g, '-')
             .replace(/([a-z\d])([A-Z])/g, '$1-$2').toLowerCase();
           this.properties = {
-            pageData: {
-              observer: 'changeBD'
-            },
             params: Object,
             upgraded: Boolean,
             headerSettings: {
@@ -197,11 +194,14 @@
               observer: '_stylesChanged'
             }
           };
+          this.observers = [
+            '_routeChanged(route)'
+          ];
         }
 
-        changeBD() {
-//          console.log('route', this.route);
-//          console.log('pageData', this.pageData);
+        _routeChanged() {
+          this.closeDrawer();
+          this.scrollPageToTop();
         }
 
         ready() {

@@ -25,7 +25,7 @@ module.exports = {
     permalink: '/speakers/',
     text: 'Speakers',
     headerSettings: {
-      backgroundColor: '#673AB7',
+      backgroundColor: '#3F51B5',
       fontColor: '#FFFFFF',
       tabBarColor: '#FFFFFF'
     }
