@@ -75,9 +75,7 @@ Our team prepared set of interesting topics in but if you have any cool idea you
 
 <br/>
 
-**Please note:** There is no guarantee that a submission will be put onto the conference agenda!
-
-The program committee picks the most interesting talk proposals and informs the selected submitters until July 17, 2016.
+**Please note:** There is no guarantee that a submission will be put onto the conference agenda! The program committee picks the most interesting talk proposals and informs the selected submitters until July 17, 2016.
 
 Any questions? Email organizers at [devfest@gdg.org.ua](mailto:devfest@gdg.org.ua)
 
