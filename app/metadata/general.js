@@ -12,7 +12,7 @@ module.exports = {
   appleMobileWebAppTitle: 'GDG DevFest Ukraine 2016',
 
   // Event details
-  dates: 'September 9-10, 2016',
+  dates: 'September 9-10, Lviv',
   location: {
     title: 'Pivdennyi Expo Center',
     description: 'Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event',

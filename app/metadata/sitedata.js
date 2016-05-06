@@ -1,5 +1,5 @@
 module.exports = {
-  aboutOrganizers: 'GDG Lviv with support of 8 GDGs from all around Ukraine is proud organizer of DevFest Ukraine',
+  aboutOrganizers: '<a href="http://lviv.gdg.org.ua" target="_blank">GDG Lviv</a> with support of 8 GDGs from all around Ukraine is proud organizer of DevFest Ukraine',
   aboutGDG: 'Google Developers Group (GDG) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion',
   statistics: [{
     counter: 500,
