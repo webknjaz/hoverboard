@@ -1,0 +1,30 @@
+.markdown-html img,
+.markdown-html iframe {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.markdown-html .quote-container {
+  @apply(--layout-horizontal);
+  padding: 20px;
+}
+
+.markdown-html .quote-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-size: contain;
+}
+
+.markdown-html .quote-text {
+  @apply(--layout-vertical);
+  @apply(--layout-flex);
+  @apply(--layout-center);
+  padding-left: 20px;
+}
+
+.markdown-html .text-center {
+  text-align: center;
+}

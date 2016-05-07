@@ -5,7 +5,6 @@
 <link rel="import" href="../../../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../../../bower_components/paper-toolbar/paper-toolbar.html">
 <link rel="import" href="../../../bower_components/paper-ripple/paper-ripple.html">
-<link rel="import" href="../../../bower_components/iron-icons/iron-icons.html">
 
 <dom-module id="photo-block">
 
@@ -43,11 +42,13 @@
         @apply(--layout-vertical);
         @apply(--layout-center-center);
         @apply(--layout-fit);
+        padding: 16px;
         background: rgba(0, 0, 0, .3);
         color: #fff;
         font-size: 21px;
         opacity: 0;
         transition: opacity .3s;
+        text-align: center;
       }
 
       .open-photos:hover {
