@@ -114,7 +114,7 @@
               posts="{{posts}}"
               partners="{{partners}}"
               videos="{{videos}}"
-    team="{{team}}"></app-data>
+              team="{{team}}"></app-data>
 
     <app-drawer-layout drawer-width="599px" force-narrow>
       <app-drawer id="drawer" swipe-open>
@@ -158,6 +158,10 @@
                          header-settings="{{headerSettings}}"
                          route="{{speakersTail}}"
                          speakers="{{speakers}}"></speakers-page>
+
+          <team-page data-page="team"
+                     header-settings="{{headerSettings}}"
+                     team="{{team}}"></team-page>
 
         </neon-animated-pages>
       </div>

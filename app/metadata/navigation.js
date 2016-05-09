@@ -31,9 +31,9 @@ module.exports = {
     }
   }, {
     route: 'team',
-    permalink: '/team',
+    permalink: '/team/',
     text: 'Team',
-    heroSettings: {
+    headerSettings: {
       backgroundColor: '#009688',
       fontColor: '#FFFFFF',
       tabBarColor: '#FFFFFF'
