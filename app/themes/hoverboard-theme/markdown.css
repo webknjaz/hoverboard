@@ -42,6 +42,10 @@
   padding-left: 20px;
 }
 
+.markdown-html .quote-container.reverse .quote-text {
+  text-align: right;
+}
+
 .markdown-html .text-center {
   text-align: center;
 }
