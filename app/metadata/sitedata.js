@@ -33,26 +33,27 @@ module.exports = {
     title: 'Tickets',
     tickets: [{
       name: 'Student',
-      price: 400,
+      price: 500,
       currency: '₴',
       starts: 'May 1',
       ends: 'Sep 8',
       info: 'Requires valid student ID'
     }, {
       name: 'Early Bird',
-      price: 700,
+      price: 750,
       currency: '₴',
       starts: 'May 1',
       ends: 'July 1',
-      info: 'Or first 150 tickets',
+      info: 'Or first 100 tickets',
       soldOut: true
     }, {
       name: 'Lazy Bird',
-      price: 900,
+      price: 1000,
       currency: '₴',
       starts: 'July 1',
       ends: 'Sep 8'
     }],
+    url: 'http://2event.com/events/630032',
     details: 'Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.'
   },
   socialFeed: {
