@@ -59,5 +59,10 @@ module.exports = {
   socialFeed: {
     source: '/data/tweets.json'
   },
-  partnershipProposition: 'mailto:devfest@gdg.org.ua?subject=Partnership%20with%20GDG%20DevFest%20Ukraine%202016'
+  partnershipProposition: 'mailto:devfest@gdg.org.ua?subject=Partnership%20with%20GDG%20DevFest%20Ukraine%202016',
+  teamPage: {
+    title: 'About Us',
+    icon: 'info',
+    text: 'Google is known all around the world. Everyone is “googling”, checking on “maps” and communicating in “gmail”. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT.'
+  }
 };

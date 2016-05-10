@@ -29,14 +29,5 @@ module.exports = {
       fontColor: '#FFFFFF',
       tabBarColor: '#FFFFFF'
     }
-  }, {
-    route: 'team',
-    permalink: '/team/',
-    text: 'Team',
-    headerSettings: {
-      backgroundColor: '#009688',
-      fontColor: '#FFFFFF',
-      tabBarColor: '#FFFFFF'
-    }
   }]
 };

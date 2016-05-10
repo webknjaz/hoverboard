@@ -1,7 +1,7 @@
 {
   "0": {
     "name": "Oleh Zasadnyy",
-    "title": "Website, sponsors",
+    "title": "Website and sponsors",
     "photoUrl": "/images/people/team/oleh_zasadnyy.jpg",
     "socials": [
       {
@@ -18,11 +18,6 @@
         "name": "Twitter",
         "icon": "twitter",
         "link": "https://twitter.com/ozasadnyy"
-      },
-      {
-        "name": "GitHub",
-        "icon": "github",
-        "link": "https://github.com/ozasadnyy"
       },
       {
         "name": "Blog",
@@ -54,14 +49,9 @@
     "photoUrl": "/images/people/team/vitaliy_zasadnyy.png",
     "socials": [
       {
-        "name": "Google+",
-        "icon": "gplus",
-        "link": "https://google.com/+VitalikZasadnyy"
-      },
-      {
-        "name": "Facebook",
-        "icon": "facebook",
-        "link": "https://www.facebook.com/zasadnyy"
+        "name": "Linkedin",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/zasadnyy"
       },
       {
         "name": "Twitter",
@@ -138,7 +128,7 @@
   },
   "6": {
     "name": "Volodya Karpliuk",
-    "title": "Speakers Manager",
+    "title": "Speakers",
     "photoUrl": "/images/people/team/volodya_karpliuk.jpg",
     "socials": [
       {
