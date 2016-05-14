@@ -58,6 +58,10 @@
         margin: 0;
       }
 
+      .page-subtitle {
+        font-size: 16px;
+      }
+
       .home-wrapper {
         width: 100%;
         font-size: 18px;
@@ -145,6 +149,7 @@
           <div class="container">
             <h3 class="page-title" hidden$="{{headerTitle}}">Blog</h3>
             <h3 class="page-title" hidden$="{{!headerTitle}}">[[headerTitle]]</h3>
+            <div class="page-subtitle" hidden$="{{!headerSubtitle}}">[[headerSubtitle]]</div>
           </div>
         </animatable-content>
         <animatable-content data-page="speakers">
@@ -181,6 +186,7 @@
               notify: true
             },
             headerTitle: String,
+            headerSubtitle: String,
             minHeight: {
               type: String,
               observer: '_updateStyles'

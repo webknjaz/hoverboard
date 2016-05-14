@@ -29,6 +29,7 @@
       }
 
       .post-wrapper > .container:not(.latest-post-wrapper) {
+        padding-top: 30px;
         padding-bottom: 20px;
       }
 
@@ -42,14 +43,6 @@
 
       .post-wrapper {
         background: #fff;
-      }
-
-      .post-meta {
-        margin-bottom: 20px;
-        padding: 30px 0 20px;
-        font-size: 13px;
-        color: var(--secondary-text-color);
-        border-bottom: 1px solid var(--divider-color);
       }
 
       .latest-post-wrapper {
@@ -115,10 +108,6 @@
     <div id="animationWrapper">
       <div class="post-wrapper">
         <div class="container" cascaded>
-          <div class="post-meta">
-            <span>Posted: [[_post.date]]</span>
-          </div>
-
           <marked-element class="post-content" markdown="[[postBody]]">
             <div class="markdown-html"></div>
           </marked-element>
@@ -273,7 +262,8 @@
               backgroundImage: this._post.image,
               fontColor: '#fff',
               tabBarColor: '#fff',
-              title: this._post.title
+              title: this._post.title,
+              subtitle: new Date(this._post.posted).toDateString().slice(4)
             };
           }
         },
@@ -291,7 +281,7 @@
             this.notifyPath('_latestPosts', this._latestPosts.slice());
 
             this._post = this.posts[postIndex];
-            this.notifyPath('_post.date', new Date(this._post.posted).toDateString().slice(4));
+
             this.updateHeaderSettings();
 
             this._postUrl = '{$ baseurl $}/posts/' + this._post.posted + '-' + this.postId + '.markdown';
