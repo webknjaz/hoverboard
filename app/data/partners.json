@@ -6,6 +6,13 @@
     "logoUrl": "/images/partners/google.svg"
   }]
 }, {
+  "title": "General partner",
+  "logos": [{
+    "name": "IT Cluster",
+    "url": "http://itcluster.lviv.ua/",
+    "logoUrl": "/images/partners/itcluster.png"
+  }]
+},{
     "title": "Information partners",
     "logos": [{
         "name": "Android Weekly",
@@ -71,5 +78,21 @@
         "name": "Robo Camp",
         "url": "http://robocamp.com.ua//",
         "logoUrl": "/images/partners/robocamp.png"
+    }, {
+        "name": "SE",
+        "url": "https://www.facebook.com/events/1616149385375331/",
+        "logoUrl": "/images/partners/se.svg"
+    }, {
+        "name": "DOU",
+        "url": "https://dou.ua/",
+        "logoUrl": "/images/partners/dou.svg"
+    }, {
+        "name": "IT Arena",
+        "url": "http://itarena.lviv.ua/",
+        "logoUrl": "/images/partners/itarena.png"
+    }, {
+        "name": "Decoded",
+        "url": "http://decoded.org.ua/en/",
+        "logoUrl": "/images/partners/decoded.png"
     }]
 }]
