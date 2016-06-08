@@ -150,7 +150,7 @@
     "id": 5,
     "featured": true,
     "name": "Ihor Dvoretskyi",
-    "title": "Operation Engineer",
+    "title": "Deployment Engineer",
     "company": "Mirantis Inc.",
     "country": "Ukraine",
     "photoUrl": "/images/people/ihor_dvoretskyi.jpg",
@@ -159,6 +159,13 @@
       "Cloud",
       "Kubernetes",
       "Docker"
+    ],
+    "badges": [
+      {
+        "name": "GDG",
+        "description": "Google Developers Group Lviv",
+        "link": "https://developers.google.com/groups/chapter/102444623953913144164/"
+      }
     ],
     "socials": [
       {

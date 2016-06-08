@@ -35,12 +35,12 @@ module.exports = {
         links: [
           {
             text: 'Partnership Proposition',
-            url: 'mailto:devfest@gdg.org.ua?subject=Partnership%20with%20GDG%20DevFest%20Ukraine%202016',
+            url: 'http://bit.ly/df16-sponsor',
             newTab: true
           },
           {
             text: 'Media Kit',
-            url: 'https://drive.google.com/open?id=0BxVrjMGUgQYEVnVfcTBXaWlCdDQ',
+            url: 'http://bit.ly/df16-media',
             newTab: true
           }
         ]

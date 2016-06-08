@@ -2,7 +2,7 @@ module.exports = {
   aboutOrganizers: '<a href="http://lviv.gdg.org.ua" target="_blank">GDG Lviv</a> with support of 8 GDGs from all around Ukraine is proud organizer of DevFest Ukraine',
   aboutGDG: 'Google Developers Group (GDG) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion',
   statistics: [{
-    counter: 500,
+    counter: 600,
     caption: 'Attendees'
   }, {
     counter: 2,
@@ -59,7 +59,7 @@ module.exports = {
   socialFeed: {
     source: '/data/tweets.json'
   },
-  partnershipProposition: 'mailto:devfest@gdg.org.ua?subject=Partnership%20with%20GDG%20DevFest%20Ukraine%202016',
+  partnershipProposition: 'http://bit.ly/df16-sponsor',
   teamPage: {
     title: 'About Us',
     icon: 'info',

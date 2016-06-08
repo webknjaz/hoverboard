@@ -56,6 +56,14 @@
         @apply(--layout-wrap);
       }
 
+      .team-block {
+        margin-bottom: 30px;
+      }
+
+      .team-name {
+        text-align: center;
+      }
+
       .member {
         @apply(--layout-horizontal);
         width: 100%;
@@ -194,29 +202,36 @@
         </div>
       </div>
 
-      <div class="team-container">
-        <template is="dom-repeat" items="[[_toArray(team)]]" as="member" on-dom-change="_updateCascadedNodes">
-          <div class="member">
-            <paper-material class="card" cascaded>
-              <div class="header">
-                <div class="photo" style="background-image: url([[member.photoUrl]])"></div>
+      <template is="dom-repeat" items="[[_toInheritedArray(team)]]" as="team">
+        <div class="team-block">
+          <h3 class="team-name">[[team.name]]</h3>
+
+          <div class="team-container">
+            <template is="dom-repeat" items="[[team.value]]" as="member" on-dom-change="_updateCascadedNodes">
+              <div class="member">
+                <paper-material class="card" cascaded>
+                  <div class="header">
+                    <div class="photo" style="background-image: url([[member.photoUrl]])"></div>
+                  </div>
+                  <div class="card-content">
+                    <div class="name">[[member.name]]</div>
+                    <div class="title">[[member.title]]</div>
+                  </div>
+                  <div class="card-actions">
+                    <template is="dom-repeat" items="[[member.socials]]" as="social">
+                      <a class="social-link" href="[[social.link]]" target="_blank">
+                        <paper-icon-button class="social-icon"
+                                           icon$="icons:{{social.icon}}"></paper-icon-button>
+                      </a>
+                    </template>
+                  </div>
+                </paper-material>
               </div>
-              <div class="card-content">
-                <div class="name">[[member.name]]</div>
-                <div class="title">[[member.title]]</div>
-              </div>
-              <div class="card-actions">
-                <template is="dom-repeat" items="[[member.socials]]" as="social">
-                  <a class="social-link" href="[[social.link]]" target="_blank">
-                    <paper-icon-button class="social-icon"
-                                       icon$="icons:{{social.icon}}"></paper-icon-button>
-                  </a>
-                </template>
-              </div>
-            </paper-material>
+            </template>
           </div>
-        </template>
-      </div>
+        </div>
+      </template>
+
     </div>
     <footer-block mailchimp-url="{$ mailchimp.url $}"
                   mailchimp-name="{$ mailchimp.name $}"
