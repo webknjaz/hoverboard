@@ -94,5 +94,17 @@
         "name": "Decoded",
         "url": "http://decoded.org.ua/en/",
         "logoUrl": "/images/partners/decoded.png"
+    }, {
+      "name": "JavaDay Minsk",
+      "url": "https://www.facebook.com/javadayby",
+      "logoUrl": "/images/partners/javaday_minsk.png"
+    }, {
+      "name": "Start IT",
+      "url": "http://start-it.com.ua/",
+      "logoUrl": "/images/partners/start_it.png"
+    }, {
+      "name": "Sphinx",
+      "url": "http://sphinx.sg/",
+      "logoUrl": "/images/partners/sphinx.png"
     }]
 }]
