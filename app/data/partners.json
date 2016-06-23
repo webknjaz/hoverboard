@@ -106,5 +106,9 @@
       "name": "Sphinx",
       "url": "http://sphinx.sg/",
       "logoUrl": "/images/partners/sphinx.png"
+    }, {
+      "name": "JS Odessa",
+      "url": "http://odessajs.org/",
+      "logoUrl": "/images/partners/jsodessa.png"
     }]
 }]
