@@ -1,114 +1,162 @@
-[{
-  "title": "General sponsor",
-  "logos": [{
-    "name": "Google",
-    "url": "https://www.google.com.ua/intl/en/about/",
-    "logoUrl": "/images/partners/google.svg"
-  }]
-}, {
-  "title": "General partner",
-  "logos": [{
-    "name": "IT Cluster",
-    "url": "http://itcluster.lviv.ua/",
-    "logoUrl": "/images/partners/itcluster.png"
-  }]
-},{
+[
+  {
+    "title": "General sponsor",
+    "logos": [
+      {
+        "name": "Google",
+        "url": "https://www.google.com.ua/intl/en/about/",
+        "logoUrl": "/images/partners/google.svg"
+      }
+    ]
+  },
+  {
+    "title": "Platinum sponsor",
+    "logos": [
+      {
+        "name": "CoreValue",
+        "url": "http://www.corevalue.com.ua/",
+        "logoUrl": "/images/partners/corevalue.svg"
+      },
+      {
+        "name": "GlobalLogic",
+        "url": "http://www.globallogic.com/",
+        "logoUrl": "/images/partners/global-logic.svg"
+      }
+    ]
+  },
+  {
+    "title": "General partner",
+    "logos": [
+      {
+        "name": "IT Cluster",
+        "url": "http://itcluster.lviv.ua/",
+        "logoUrl": "/images/partners/itcluster.png"
+      }
+    ]
+  },
+  {
     "title": "Information partners",
-    "logos": [{
+    "logos": [
+      {
         "name": "Android Weekly",
         "url": "http://androidweekly.net/",
         "logoUrl": "/images/partners/android_weekly.png"
-    }, {
+      },
+      {
         "name": "Droidcon Krakow",
         "url": "http://droidcon.pl/",
         "logoUrl": "/images/partners/droidcon.png"
-    }, {
+      },
+      {
         "name": "CyberBionic",
         "url": "http://edu.cbsystematics.com/en/",
         "logoUrl": "/images/partners/cbs.svg"
-    }, {
+      },
+      {
         "name": "ITVDN",
         "url": "http://itvdn.com/en",
         "logoUrl": "/images/partners/itvdn.svg"
-    }, {
+      },
+      {
         "name": "ITEM",
         "url": "http://item.com.ua/",
         "logoUrl": "/images/partners/item.svg"
-    }, {
+      },
+      {
         "name": "JDay",
         "url": "http://www.jday.com.ua/",
         "logoUrl": "/images/partners/jday.png"
-    }, {
+      },
+      {
         "name": "Lviv Convention Bureau",
         "url": "http://lvivconvention.com.ua/en/",
         "logoUrl": "/images/partners/lcb.svg"
-    }, {
+      },
+      {
         "name": "Lviv IT School",
         "url": "http://lits.com.ua/",
         "logoUrl": "/images/partners/lits.png"
-    }, {
+      },
+      {
         "name": "Symphony Solutions",
         "url": "http://www.symphony-solutions.eu/",
         "logoUrl": "/images/partners/symphony-solutions.svg"
-    }, {
+      },
+      {
         "name": "UA Mobile",
         "url": "http://www.uamobile.org/",
         "logoUrl": "/images/partners/uamobile.png"
-    }, {
+      },
+      {
         "name": "Rozrobka",
         "url": "https://rozrobka.com/",
         "logoUrl": "/images/partners/rozrobka.svg"
-    }, {
+      },
+      {
         "name": "SoftServe",
         "url": "https://softserve.ua/en/",
         "logoUrl": "/images/partners/softserve.svg"
-    }, {
+      },
+      {
         "name": "Mobile Warsaw",
         "url": "http://mobile-warsaw.pl/",
         "logoUrl": "/images/partners/mobile-warsaw.svg"
-    }, {
+      },
+      {
         "name": "TechMagic",
         "url": "http://www.techmagic.co/",
         "logoUrl": "/images/partners/techmagic.png"
-    }, {
+      },
+      {
         "name": "Betaplace",
         "url": "http://betaplace.com.ua/en/",
         "logoUrl": "/images/partners/betaplace.svg"
-    }, {
+      },
+      {
         "name": "Robo Camp",
         "url": "http://robocamp.com.ua//",
         "logoUrl": "/images/partners/robocamp.png"
-    }, {
+      },
+      {
         "name": "SE",
         "url": "https://www.facebook.com/events/1616149385375331/",
         "logoUrl": "/images/partners/se.svg"
-    }, {
+      },
+      {
         "name": "DOU",
         "url": "https://dou.ua/",
         "logoUrl": "/images/partners/dou.svg"
-    }, {
+      },
+      {
         "name": "IT Arena",
         "url": "http://itarena.lviv.ua/",
         "logoUrl": "/images/partners/itarena.png"
-    }, {
+      },
+      {
         "name": "Decoded",
         "url": "http://decoded.org.ua/en/",
         "logoUrl": "/images/partners/decoded.png"
-    }, {
-      "name": "JavaDay Minsk",
-      "url": "https://www.facebook.com/javadayby",
-      "logoUrl": "/images/partners/javaday_minsk.png"
-    }, {
-      "name": "Start IT",
-      "url": "http://start-it.com.ua/",
-      "logoUrl": "/images/partners/start_it.png"
-    }, {
-      "name": "Sphinx",
-      "url": "http://sphinx.sg/",
-      "logoUrl": "/images/partners/sphinx.png"
-    }, {
-      "name": "JS Odessa",
-      "url": "http://odessajs.org/",
-      "logoUrl": "/images/partners/jsodessa.png"
-    }]
-}]
+      },
+      {
+        "name": "JavaDay Minsk",
+        "url": "https://www.facebook.com/javadayby",
+        "logoUrl": "/images/partners/javaday_minsk.png"
+      },
+      {
+        "name": "Start IT",
+        "url": "http://start-it.com.ua/",
+        "logoUrl": "/images/partners/start_it.png"
+      },
+      {
+        "name": "Sphinx",
+        "url": "http://sphinx.sg/",
+        "logoUrl": "/images/partners/sphinx.png"
+      },
+      {
+        "name": "JS Odessa",
+        "url": "http://odessajs.org/",
+        "logoUrl": "/images/partners/jsodessa.png"
+      }
+    ]
+  }
+]

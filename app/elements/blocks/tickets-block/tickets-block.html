@@ -72,7 +72,8 @@
                           currency="{$ ticket.currency $}"
                           starts="{$ ticket.starts $}"
                           ends="{$ ticket.ends $}"
-                          info="{$ ticket.info $}"></ticket-element>
+                          info="{$ ticket.info $}"
+                          {% if ticket.soldOut %}sold-out{% endif %}></ticket-element>
         </a>
         {% endfor %}
       </div>

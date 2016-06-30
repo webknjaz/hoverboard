@@ -46,6 +46,7 @@
         top: 50%;
         box-shadow: inset -2px 0 1px rgba(0, 0, 0, 0.12);
         transform: translate3d(-50%, -50%, 0);
+        z-index: 1;
       }
 
       .main {
@@ -94,9 +95,21 @@
         font-size: 16px;
         color: var(--secondary-text-color);
       }
+
       .additional-info {
         font-size: 12px;
         color: var(--disabled-text-color);
+      }
+
+      .overlay {
+        @apply(--layout-fit);
+        @apply(--layout-vertical);
+        @apply(--layout-center-center);
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 3px;
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
       }
     </style>
 
@@ -116,6 +129,7 @@
     <div class="side">
       <div class="side-content">[[type]]</div>
     </div>
+    <div class="overlay" hidden$="[[!soldOut]]">Sold Out</div>
   </template>
 
   <script>
@@ -134,8 +148,16 @@
             currency: String,
             starts: String,
             ends: String,
-            info: String
+            info: String,
+            soldOut: {
+              type: Boolean,
+              value: false
+            }
           }
+        }
+
+        ready() {
+          console.log(this.soldOut);
         }
 
       }

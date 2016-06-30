@@ -44,7 +44,7 @@ module.exports = {
       currency: '₴',
       starts: 'May 1',
       ends: 'July 1',
-      info: 'Or first 100 tickets',
+      info: 'Or first 150 tickets',
       soldOut: true
     }, {
       name: 'Lazy Bird',
