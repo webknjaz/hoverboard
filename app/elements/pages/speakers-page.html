@@ -21,6 +21,7 @@
       :host {
         display: block;
         --grid-gutter: 8px;
+        --colums-number: 3;
       }
 
       .speakers-container {
@@ -66,6 +67,7 @@
 
       .photo {
         @apply(--layout-fit);
+        /*@apply(--img-circle);*/
       }
 
       .photo-overlay {
@@ -127,7 +129,7 @@
 
         .speaker {
           width: calc(100% / 2 - 3 * var(--grid-gutter));
-          margin: var(--grid-gutter) var(--grid-gutter) calc(2 * var(--grid-gutter));
+          margin: var(--grid-gutter);
         }
 
       }
@@ -135,10 +137,35 @@
       @media (min-width: 961px) {
         .speaker {
           width: calc(100% / 3 - 4 * var(--grid-gutter));
-          margin: var(--grid-gutter) var(--grid-gutter) calc(3 * var(--grid-gutter));
         }
 
       }
+
+      /* New design */
+
+      .tags {
+        font-size: 14px;
+        color: var(--primary-text-color);
+      }
+
+      .tag {
+        margin-left: 2px;
+        padding: 1px 4px;
+        color: #fff;
+        display: inline-block;
+        font-size: 12px;
+        border-radius: 2px;
+      }
+
+      .markdown-html {
+        font-size: 16px;
+      }
+
+      .company-logo {
+        margin-bottom: 10px;
+        height: 25px;
+      }
+
     </style>
 
     <carbon-route route="{{route}}"
@@ -167,8 +194,15 @@
               </div>
             </a>
             <a href="{$ baseurl $}/speakers/[[speaker.id]]/" class="card-content">
-              <truncate-marked-text class="bio" text="[[speaker.bio]]" characters="220"
-                                    break-last-word></truncate-marked-text>
+              <iron-image class="company-logo" src="{{speaker.companyLogo}}" sizing="contain"></iron-image>
+              <div class="tags">Tags:
+                <template is="dom-repeat" items="[[speaker.tags]]" as="tag">
+                  <span class="tag" style$="background-color: [[_getCustomStyleValue(tag)]];" target="_blank">[[tag]]</span>
+                </template>
+              </div>
+              <marked-element class="details-text" markdown="[[speaker.shortBio]]">
+                <div class="markdown-html"></div>
+              </marked-element>
             </a>
             <div class="card-actions">
               <template is="dom-repeat" items="[[speaker.socials]]" as="social">
@@ -259,6 +293,10 @@
 
         updateHeaderSettings: function () {
           this.headerSettings = this.selected ? this._headerSettings : this.headerSettings;
+        },
+
+        _getCustomStyleValue: function (value) {
+          return this.getComputedStyleValue('--' + this._generateClass(value)) || this.getComputedStyleValue('--general');
         },
 
         openSpeakerDetails: function () {

@@ -41,7 +41,6 @@
       }
 
       .name {
-        margin-top: 5px;
         padding: 0 16px;
         line-height: .9;
       }
@@ -59,6 +58,12 @@
         display: block;
         color: inherit;
         font-size: .9em;
+      }
+
+      .company-logo {
+        width: 80px;
+        height: 20px;
+        transform: translate3d(0, -50%, 0);
       }
 
       @media (max-width: 600px) {
@@ -86,6 +91,7 @@
         <template is="dom-repeat" items="[[featuredPeople]]" as="person">
           <a href="{$ baseurl $}/speakers/[[person.id]]" class="person">
             <div class="photo" style="background-image: url([[person.photoUrl]])"></div>
+            <iron-image class="company-logo" src="{{person.companyLogo}}" sizing="contain"></iron-image>
             <h4 class="name">[[person.name]]</h4>
             <span class="company">[[person.company]], [[person.country]]</span>
           </a>
