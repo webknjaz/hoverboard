@@ -22,6 +22,7 @@
         display: block;
         --grid-gutter: 8px;
         --colums-number: 3;
+        --general: #bdbdbd;
       }
 
       .speakers-container {
@@ -155,6 +156,7 @@
         display: inline-block;
         font-size: 12px;
         border-radius: 2px;
+        background: var(--general);
       }
 
       .markdown-html {
@@ -197,7 +199,7 @@
               <iron-image class="company-logo" src="{{speaker.companyLogo}}" sizing="contain"></iron-image>
               <div class="tags">Skills:
                 <template is="dom-repeat" items="[[speaker.tags]]" as="tag">
-                  <span class="tag" style$="background-color: [[_getCustomStyleValue(tag)]];" target="_blank">[[tag]]</span>
+                  <span class="tag" style$="{{_getCustomStyleValue(tag)}}" target="_blank">[[tag]]</span>
                 </template>
               </div>
               <marked-element class="details-text" markdown="[[speaker.shortBio]]">
@@ -296,7 +298,7 @@
         },
 
         _getCustomStyleValue: function (value) {
-          return this.getComputedStyleValue('--' + this._generateClass(value)) || this.getComputedStyleValue('--general');
+            return 'background-color: ' + this.getComputedStyleValue('--' + this._generateClass(value)) || this.getComputedStyleValue('--general');
         },
 
         openSpeakerDetails: function () {

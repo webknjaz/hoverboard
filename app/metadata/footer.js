@@ -9,6 +9,10 @@ module.exports = {
             url: '/team/'
           },
           {
+            text: 'Code of Conduct',
+            url: '/cod/'
+          },
+          {
             text: 'Google Developers',
             url: 'https://developers.google.com/',
             newTab: true
