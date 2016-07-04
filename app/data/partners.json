@@ -36,6 +36,7 @@
   },
   {
     "title": "Information partners",
+    "logosClass": "info",
     "logos": [
       {
         "name": "Android Weekly",

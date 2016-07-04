@@ -56,6 +56,10 @@
         height: 60px;
         width: 140px;
       }
+      .logo-img.info {
+        height: 45px;
+        width: 100px;
+      }
     </style>
 
     <div class="container">
@@ -66,7 +70,7 @@
           <div class="logos">
             <template is="dom-repeat" items="[[block.logos]]" as="logo">
               <a class="logo-item" href="[[logo.url]]" title="[[logo.name]]" target="_blank">
-                <iron-image class="logo-img" src="[[logo.logoUrl]]" height$="{{logo.height}}"
+                <iron-image class$="logo-img [[block.logosClass]]" src="[[logo.logoUrl]]" height$="{{logo.height}}"
                             width$="{{logo.width}}" preload fade sizing="contain"></iron-image>
               </a>
             </template>
