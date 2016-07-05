@@ -182,6 +182,11 @@
         "name": "Codeguida",
         "url": "http://codeguida.com/",
         "logoUrl": "/images/partners/codeguida.svg"
+      },
+      {
+        "name": "Crowd Reviews",
+        "url": "https://www.crowdreviews.com/",
+        "logoUrl": "/images/partners/crowd_reviews.png"
       }
     ]
   }
