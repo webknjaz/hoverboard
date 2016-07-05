@@ -21,6 +21,11 @@
         "name": "GlobalLogic",
         "url": "http://www.globallogic.com/",
         "logoUrl": "/images/partners/global-logic.svg"
+      },
+      {
+        "name": "Wolters Kluwer",
+        "url": "http://wolterskluwer.com/",
+        "logoUrl": "/images/partners/wolterskluwer.svg"
       }
     ]
   },
