@@ -162,6 +162,31 @@
         "name": "JS Odessa",
         "url": "http://odessajs.org/",
         "logoUrl": "/images/partners/jsodessa.png"
+      },
+      {
+        "name": "HotWork",
+        "url": "http://school.hotwork.ru/",
+        "logoUrl": "/images/partners/hotwork.png"
+      },
+      {
+        "name": "Droidcon Vienna",
+        "url": "http://www.devfest.at/",
+        "logoUrl": "/images/partners/droidcon_vienna.svg"
+      },
+      {
+        "name": "BuilStuff Odessa",
+        "url": "http://www.buildstuff.com.ua/odessa/",
+        "logoUrl": "/images/partners/buildstuff.png"
+      },
+      {
+        "name": "Codeguida",
+        "url": "http://codeguida.com/",
+        "logoUrl": "/images/partners/codeguida.svg"
+      },
+      {
+        "name": "Crowd Reviews",
+        "url": "https://www.crowdreviews.com/",
+        "logoUrl": "/images/partners/crowd_reviews.png"
       }
     ]
   }
