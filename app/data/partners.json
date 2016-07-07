@@ -10,6 +10,16 @@
     ]
   },
   {
+    "title": "Diamond sponsor",
+    "logos": [
+      {
+        "name": "intouch",
+        "url": "http://www.intouchmena.com/",
+        "logoUrl": "/images/partners/intouch.svg"
+      }
+    ]
+  },
+  {
     "title": "Platinum sponsors",
     "logos": [
       {
@@ -165,7 +175,7 @@
       },
       {
         "name": "HotWork",
-        "url": "http://school.hotwork.ru/",
+        "url": "http://hotwork.com.ua/",
         "logoUrl": "/images/partners/hotwork.png"
       },
       {
