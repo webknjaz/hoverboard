@@ -215,6 +215,7 @@
         }
 
         _scrollToTickets() {
+          ga('send', 'event', 'ticket', 'buy_click', 'header');
           this.scrollTo(document.body, document.body.getElementsByTagName('tickets-block')[0].getBoundingClientRect().top, 1000);
         }
 

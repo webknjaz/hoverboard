@@ -16,6 +16,11 @@
         "name": "intouch",
         "url": "http://www.intouchmena.com/",
         "logoUrl": "/images/partners/intouch.svg"
+      },
+      {
+        "name": "Mirantis",
+        "url": "https://www.mirantis.com/",
+        "logoUrl": "/images/partners/mirantis.svg"
       }
     ]
   },
@@ -36,6 +41,12 @@
         "name": "Wolters Kluwer",
         "url": "http://wolterskluwer.com/",
         "logoUrl": "/images/partners/wolterskluwer.svg"
+      },
+      {
+        "name": "N-iX",
+        "url": "http://n-ix.com/",
+        "logoUrl": "/images/partners/n_ix.svg",
+        "width": 85
       }
     ]
   },

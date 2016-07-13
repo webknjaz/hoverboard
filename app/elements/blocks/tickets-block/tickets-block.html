@@ -78,7 +78,7 @@
         {% endfor %}
       </div>
       <div class="details">{$ ticketsBlock.details $}</div>
-      <a href="{$ ticketsBlock.url $}" target="_blank">
+      <a href="{$ ticketsBlock.url $}" target="_blank" on-tap="_trackBuyClick">
         <paper-button class="buy-button" raised>Buy a ticket</paper-button>
       </a>
     </div>
@@ -93,6 +93,10 @@
         beforeRegister() {
           this.is = this.constructor.name.replace(/\W+/g, '-')
             .replace(/([a-z\d])([A-Z])/g, '$1-$2').toLowerCase();
+        }
+
+        _trackBuyClick(e) {
+          ga('send', 'event', 'ticket', 'buy_click', e.currentTarget.href);
         }
 
       }
