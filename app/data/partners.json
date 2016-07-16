@@ -10,7 +10,7 @@
     ]
   },
   {
-    "title": "Diamond sponsor",
+    "title": "Diamond sponsors",
     "logos": [
       {
         "name": "intouch",
@@ -20,7 +20,8 @@
       {
         "name": "Mirantis",
         "url": "https://www.mirantis.com/",
-        "logoUrl": "/images/partners/mirantis.svg"
+        "logoUrl": "/images/partners/mirantis.svg",
+        "width": 100
       }
     ]
   },
@@ -47,6 +48,16 @@
         "url": "http://n-ix.com/",
         "logoUrl": "/images/partners/n_ix.svg",
         "width": 85
+      }
+    ]
+  },
+  {
+    "title": "Gift partner",
+    "logos": [
+      {
+        "name": "JetBrains",
+        "url": "https://www.jetbrains.com/",
+        "logoUrl": "/images/partners/jetbrains.svg"
       }
     ]
   },
